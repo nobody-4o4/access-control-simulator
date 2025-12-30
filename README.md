@@ -203,12 +203,6 @@ access-control-simulator/
 - `BADGE002`
 - `BADGE003`
 
-**Fingerprint IDs:**
-
-- `FP001`
-- `FP002`
-- `FP003`
-
 #### 4. Attack Simulation
 
 - Click the "Attaques" (Attacks) button
