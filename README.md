@@ -162,3 +162,122 @@ access-control-simulator/
 ├── tsconfig.json                # TypeScript configuration
 └── README.md                     # This file
 ```
+## 📖 Usage Guide
+
+### Accessing the Application
+
+1. **Start the development server** (see [Running the Project](#running-the-project))
+2. **Open your browser** and navigate to `http://localhost:3000`
+3. You'll see the main building visualization
+
+### Main Features
+
+#### 1. Building View
+
+- View the 4-floor building layout
+- Each floor represents different departments:
+  - **4th Floor**: Data Center
+  - **3rd Floor**: IT Department
+  - **2nd Floor**: Management & HR
+  - **1st Floor**: Marketing Department
+
+#### 2. Access Control System
+
+- Navigate to `/syscontrol` or click "System Control"
+- Choose authentication method:
+  - **Simple Mode**: PIN or Badge
+  - **Advanced Mode**: PIN + Badge (Multi-factor)
+  - **Fingerprint**: Biometric authentication
+
+#### 3. Valid Credentials (for testing)
+
+**PIN Codes:**
+
+- `1234`
+- `5678`
+- `9999`
+
+**Badge IDs:**
+
+- `BADGE001`
+- `BADGE002`
+- `BADGE003`
+
+**Fingerprint IDs:**
+
+- `FP001`
+- `FP002`
+- `FP003`
+
+#### 4. Attack Simulation
+
+- Click the "Attaques" (Attacks) button
+- Select an attack type to simulate:
+  - **Brute Force**: Automated PIN guessing
+  - **Badge Cloning**: Attempt to clone a badge
+  - **Terminal Attack**: Command-line based attack
+  - **Social Engineering**: Phishing attempts
+
+#### 5. Defense System
+
+- Enable "Défenses" (Defenses) toggle
+- System will detect and block:
+  - Cloned badges (ending with `_CLONE`)
+  - Multiple failed attempts (max 3)
+  - Suspicious activities
+
+#### 6. Statistics & Logs
+
+- View real-time access logs
+- Download logs as CSV files
+- View statistics dashboard
+- Filter logs by type (Access, Security, Attacks)
+
+## 🛠 Technologies Used
+
+### Core Framework
+
+- **Next.js 16.0.10**: React framework with App Router
+- **React 19.2.0**: UI library
+- **TypeScript 5**: Type-safe JavaScript
+
+### Styling
+
+- **Tailwind CSS 4.1.9**: Utility-first CSS framework
+- **Radix UI**: Accessible component primitives
+- **Lucide React**: Icon library
+
+### Educational Use
+
+This simulator is designed for educational purposes to demonstrate:
+
+- Access control system concepts
+- Security vulnerabilities and attacks
+- Defense mechanisms
+- Real-world security scenarios
+
+### Key Learning Points
+
+1. **Authentication Methods**: Multiple ways to verify identity
+2. **Security Vulnerabilities**: How systems can be attacked
+3. **Defense Strategies**: Methods to protect against attacks
+4. **Logging & Monitoring**: Importance of security logs
+5. **Multi-Factor Authentication**: Enhanced security through multiple verification steps
+
+### Suggested Exercises
+
+1. Test all authentication methods
+2. Attempt various attacks and observe defenses
+3. Analyze access logs and statistics
+4. Modify valid credentials in the code
+5. Add new attack types or defense mechanisms
+
+## 📄 License
+
+This project is for educational purposes.
+
+## 👤 Author
+
+**Amine Brihi**
+
+Access Control System Simulator - Educational Project
