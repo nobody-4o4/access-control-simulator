@@ -2,7 +2,7 @@
 
 A comprehensive, interactive security access control simulator built with Next.js, React, and TypeScript. This application demonstrates various authentication mechanisms, attack simulations, and defense strategies for educational purposes.
 
-[🎥 Watch demo video](./demo video.mp4)
+[🎥 Watch demo video](demo video.mp4)
 
 ## 🎯 Overview
 
