@@ -2,9 +2,6 @@
 
 A comprehensive, interactive security access control simulator built with Next.js, React, and TypeScript. This application demonstrates various authentication mechanisms, attack simulations, and defense strategies for educational purposes.
 
-## 🎥 Demo Video
-https://github.com/nobody-404/access-control-simulator/demo video.mp4
-
 ## 🎯 Overview
 
 This Access Control System Simulator is an educational tool designed to demonstrate:
