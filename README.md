@@ -274,8 +274,8 @@ This simulator is designed for educational purposes to demonstrate:
 
 This project is for educational purposes.
 
-## 👤 Author
+## 👤 Authors
 
-**Amine Brihi**
+**Amine Brihi | Aarafat El Hajjaji | Ayman Elmannany**
 
 Access Control System Simulator - Educational Project
